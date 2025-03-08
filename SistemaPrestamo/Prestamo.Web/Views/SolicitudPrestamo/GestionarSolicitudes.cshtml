@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Gestionar Solicitudes de Préstamo";
+}
+
+@section Estilos {
+    <link href="~/lib/datatables2/css/datatables.datatables.css" rel="stylesheet" nonce="@Context.Items["ScriptNonce"]" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" nonce="@Context.Items["ScriptNonce"]">
+}
+
+<div class="row mt-4">
+    <div class="col-sm-12">
+        <div class="card mb-4">
+            <div class="card-header">
+                <i class="fa-solid fa-file-invoice"></i>
+                Lista de Solicitudes de Préstamo
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="col-sm-12">
+                            <table class="display cell-border" id="tbSolicitudes" cellspacing="0" style="width:100%">
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/lib/datatables/js/datatables-custom.js" nonce="@Context.Items["ScriptNonce"]"></script>
+    <script src="~/lib/datatables2/js/datatables.js" nonce="@Context.Items["ScriptNonce"]"></script>
+    <script src="~/views/gestionarSolicitudes.js"  nonce="@Context.Items["ScriptNonce"]"></script>
+}

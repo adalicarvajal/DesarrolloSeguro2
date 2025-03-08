@@ -1,0 +1,1 @@
+sR]C:\Users\USUARIO\Desktop\DesarrolloSeguro2\SistemaPrestamo\Prestamo.Data\Prestamo.Data.csproj¢net8.0òCSharp12
